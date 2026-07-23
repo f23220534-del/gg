@@ -1,0 +1,66 @@
+{
+  "branding": {
+    "name": "Nexus Shop",
+    "color": "#7C3AED",
+    "footer": "Nexus Shop • Support professionnel",
+    "thumbnail": ""
+  },
+  "adminRoleName": "Bot Admin",
+  "ticketStaffRoleId": "",
+  "ticketLogChannelId": "",
+  "serverLogChannelId": "",
+  "giveawayChannelId": "",
+  "ticketAutoCloseHours": 24,
+  "ticketTypes": {
+    "account": {
+      "label": "Achat de compte",
+      "emoji": "👤",
+      "description": "Acheter un compte disponible",
+      "categoryId": "",
+      "welcomeTitle": "Demande d'achat de compte",
+      "welcomeText": "Merci pour votre demande. Décrivez précisément le compte recherché, votre budget et votre moyen de paiement."
+    },
+    "exchange": {
+      "label": "Échange crypto",
+      "emoji": "🪙",
+      "description": "Effectuer un échange ou une transaction crypto",
+      "categoryId": "",
+      "welcomeTitle": "Demande d'échange crypto",
+      "welcomeText": "Indiquez la crypto, le réseau, le montant, la devise souhaitée et les informations utiles. Ne publiez jamais de clé privée ni de seed phrase."
+    },
+    "replacement": {
+      "label": "Remplacement",
+      "emoji": "♻️",
+      "description": "Demander un remplacement ou un SAV",
+      "categoryId": "",
+      "welcomeTitle": "Demande de remplacement",
+      "welcomeText": "Expliquez le problème, indiquez la commande concernée et ajoutez les preuves nécessaires."
+    },
+    "partnership": {
+      "label": "Partenariat",
+      "emoji": "🤝",
+      "description": "Proposer un partenariat",
+      "categoryId": "",
+      "welcomeTitle": "Proposition de partenariat",
+      "welcomeText": "Présentez votre projet, votre audience, vos statistiques et la proposition souhaitée."
+    }
+  },
+  "products": [
+    {
+      "id": "starter",
+      "name": "Produit Starter",
+      "emoji": "✨",
+      "price": "9,99 €",
+      "description": "Description personnalisable du produit Starter.",
+      "available": true
+    },
+    {
+      "id": "premium",
+      "name": "Produit Premium",
+      "emoji": "💎",
+      "price": "24,99 €",
+      "description": "Description personnalisable du produit Premium.",
+      "available": true
+    }
+  ]
+}
